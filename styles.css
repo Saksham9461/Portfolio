@@ -4,6 +4,30 @@
 html {
   scroll-behavior: smooth;
 }
+::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: rgba(0, 0, 0, 0.05);
+            border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: linear-gradient(45deg, #6e8efb, #a777e3);
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            background-clip: padding-box;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: linear-gradient(45deg, #5a7dfa, #9466e0);
+        }
+
+        ::-webkit-scrollbar-corner {
+            background: transparent;
+        }
 
 :root {
     --primary: rgb(7, 7, 22);
