@@ -604,12 +604,10 @@ a {
 /* === PROJECTS SECTION === */
 /* ====================== */
 #projects {
-    padding: 60px 0 !important;
+    padding: 60px 10px;
     background-color: var(--secondary);
 }
-.container{
-    padding: 60px 0;
-}
+
 .project-card {
     display: flex;
     flex-direction: column;
@@ -646,9 +644,11 @@ a {
     box-shadow: 0 12px 40px rgba(0, 170, 255, 0.15);
 }
 
-.btn-resume .ex:hover {
-    transform: scale(1.05) !important;
+.ex:hover {
+    transform: translateY(-6px);
 }
+
+
 
 /* ====================== */
 /* === CERTIFICATES SECTION === */
