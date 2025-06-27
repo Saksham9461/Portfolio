@@ -602,7 +602,7 @@ a {
 /* === PROJECTS SECTION === */
 /* ====================== */
 #projects {
-    padding: 60px 0;
+    padding: 60px 0 !important;
     background-color: var(--secondary);
 }
 
@@ -640,6 +640,10 @@ a {
     background: rgba(255, 255, 255, 0.08);
     border-color: rgba(0, 170, 255, 0.3);
     box-shadow: 0 12px 40px rgba(0, 170, 255, 0.15);
+}
+
+.btn-resume .ex:hover{
+    transform: scale(1.05) !important;
 }
 
 /* ====================== */
