@@ -23,7 +23,7 @@ This website showcases:
 
 # 📞 Contact Me
 
-- Email: [sakshamojha@9461.com](mailto:sakshamojha@9461.com)  
+- Email: [sakshamojha9461@gmail.com](mailto:sakshamojha941@gmail.com)  
 - LinkedIn: [linkedin.com/in/saksham-ojha-08377329b/](https://www.linkedin.com/in/saksham-ojha-08377329b/)  
 - GitHub: [github.com/Saksham9461](https://github.com/Saksham9461)
 
