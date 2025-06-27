@@ -2,32 +2,33 @@
 /* === GLOBAL STYLES === */
 /* ====================== */
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
+
 ::-webkit-scrollbar {
-            width: 8px;
-            height: 8px;
-        }
+    width: 8px;
+    height: 8px;
+}
 
-        ::-webkit-scrollbar-track {
-            background: rgba(0, 0, 0, 0.05);
-            border-radius: 10px;
-        }
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
 
-        ::-webkit-scrollbar-thumb {
-            background: linear-gradient(45deg, #6e8efb, #a777e3);
-            border-radius: 10px;
-            border: 1px solid rgba(255, 255, 255, 0.3);
-            background-clip: padding-box;
-        }
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(45deg, #6e8efb, #a777e3);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background-clip: padding-box;
+}
 
-        ::-webkit-scrollbar-thumb:hover {
-            background: linear-gradient(45deg, #5a7dfa, #9466e0);
-        }
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(45deg, #5a7dfa, #9466e0);
+}
 
-        ::-webkit-scrollbar-corner {
-            background: transparent;
-        }
+::-webkit-scrollbar-corner {
+    background: transparent;
+}
 
 :root {
     --primary: rgb(7, 7, 22);
@@ -257,6 +258,7 @@ a {
     background-color: var(--primary);
     padding: 60px 0;
 }
+
 .hero-terminal {
     background: #0a192f;
     border-radius: 12px;
@@ -605,7 +607,9 @@ a {
     padding: 60px 0 !important;
     background-color: var(--secondary);
 }
-
+.container{
+    padding: 60px 0;
+}
 .project-card {
     display: flex;
     flex-direction: column;
@@ -642,7 +646,7 @@ a {
     box-shadow: 0 12px 40px rgba(0, 170, 255, 0.15);
 }
 
-.btn-resume .ex:hover{
+.btn-resume .ex:hover {
     transform: scale(1.05) !important;
 }
 
