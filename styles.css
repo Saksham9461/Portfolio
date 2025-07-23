@@ -33,7 +33,7 @@ html {
 :root {
     --primary: rgb(7, 7, 22);
     --secondary: rgb(17, 24, 40);
-    --accent: #00aaff;
+    --accent: rgb(0, 170, 255);
     --text-light: #ffffff;
     --text-dark: #333333;
 }
@@ -840,7 +840,7 @@ a {
     bottom: 20px;
     right: 20px;
     z-index: 100;
-    background-color: var(--accent);
+    background-color: rgba(0, 170, 255,0.3);
     color: white;
     padding: 10px 16px;
     border-radius: 50%;
