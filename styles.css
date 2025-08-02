@@ -148,6 +148,9 @@ a {
 .navbar {
     background-color: var(--primary);
     padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000000;
 }
 
 .navbar i {
@@ -452,6 +455,7 @@ a {
 #about {
     background-color: var(--secondary);
     padding: 60px 0;
+    padding-top: 105px;
 }
 
 .section-title {
@@ -537,6 +541,7 @@ a {
 #skills {
     padding: 60px 0;
     background-color: var(--primary);
+    padding-top: 105px;
 }
 
 .section-subtitle {
@@ -608,6 +613,7 @@ a {
 #projects {
     padding: 60px 10px;
     background-color: var(--secondary);
+    padding-top: 105px;
 }
 
 .project-card {
@@ -661,6 +667,7 @@ a {
     background: var(--primary);
     position: relative;
     overflow: hidden;
+    padding-top: 105px;
 }
 
 #certificates::before {
@@ -748,6 +755,7 @@ a {
 #contact {
     padding: 60px 0;
     background-color: var(--secondary);
+    padding-top: 105px;
 }
 
 .contact-content {
