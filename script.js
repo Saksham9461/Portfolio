@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     setTimeout(() => {
         mainContent.style.display = 'block';
         window.scrollTo(0, 0);
-    }, 2000);
+    }, 3000);
 
     setTimeout(() => {
         preloader.remove();
