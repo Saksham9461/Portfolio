@@ -656,6 +656,14 @@ a {
     transform: translateY(-6px);
 }
 
+/* ====================== */
+/* === EXPERIENCE SECTION === */
+/* ====================== */
+#experience {
+    padding: 60px 10px;
+    background-color: var(--primary);
+    padding-top: 105px;
+}
 
 
 /* ====================== */
@@ -664,7 +672,7 @@ a {
 
 #certificates {
     padding: 80px 0;
-    background: var(--primary);
+    background: var(--secondary);
     position: relative;
     overflow: hidden;
     padding-top: 105px;
@@ -754,7 +762,7 @@ a {
 /* ====================== */
 #contact {
     padding: 60px 0;
-    background-color: var(--secondary);
+    background-color: var(--primary);
     padding-top: 105px;
 }
 
@@ -787,7 +795,7 @@ a {
 /* ====================== */
 .footer {
     padding: 20px 0;
-    background-color: var(--secondary);
+    background-color: var(--primary);
     text-align: center;
 }
 
