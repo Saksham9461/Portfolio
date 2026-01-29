@@ -761,7 +761,7 @@ a {
 /* === CONTACT SECTION === */
 /* ====================== */
 #contact {
-    padding: 60px 0;
+    /* padding: 1px 0; */
     background-color: var(--primary);
     padding-top: 105px;
 }
